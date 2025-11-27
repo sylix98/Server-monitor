@@ -10,9 +10,9 @@
 這是一個部署於 **Google Cloud Platform (GCP)** 的輕量級伺服器監控解決方案。
 專案旨在解決雲端虛擬機 (VM) 在資源受限環境下（如 Free Tier），難以即時掌握資源異常的問題。系統透過 Python 腳本持續監測 **CPU 使用率**與**網路流量**，並結合 **Systemd** 實現高可用性的背景服務管理。
 
-與一般監控腳本不同，本系統引入了 **「移動平均 (Moving Average)」** 與 **「時間窗口 (Time Window)」** 演算法，有效過濾瞬間突波 (Spike) 造成的誤報，並具備 **警報冷卻 (Cooldown)** 機制，是具備維運思維的自動化工具。
+與一般監控腳本不同，本系統引入了 **「移動平均 (Moving Average)」** 與 **「時間窗口 (Time Window)」** 演算法，有效過濾瞬間突波 (Spike) 造成的誤報，並具備 **警報冷卻** 機制，是具備維運思維的自動化工具。
 
-注意：本專案僅用在個人程式與雲端練習面向，不得用於其他用途。
+注意：本專案僅用在個人程式與雲端架構練習面向，不得用於其他用途。
 
 ## 核心功能
 
@@ -99,4 +99,5 @@ sudo systemctl enable server-monitor
 ```
 
 ## 成果
+![image](https://github.com/sylix98/Server-monitor/blob/main/picture/start%20successfully.png)
 ![image](https://github.com/sylix98/Server-monitor/blob/main/picture/Network%20warning.png)
