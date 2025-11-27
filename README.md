@@ -54,8 +54,9 @@ pip install -r requirements.txt
 
 **UserConfig.py**
 ```
-SENDER_EMAIL = "your_email@gmail.com"
+SENDER_EMAIL = "your_email@gmail.com" # 發送郵件方
 SENDER_PASSWORD = "your_app_password"  # Google 應用程式密碼
+RECEIVER_EMAIL = "receriver@gmail.com" # 接收郵件方
 ```
 
 **監控閾值設定**
