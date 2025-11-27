@@ -1,9 +1,9 @@
 # ================= Email 設定 =================
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SENDER_EMAIL = "ptg13265@gmail.com"
-SENDER_PASSWORD = "zcdr ceio iodx sypj" 
-RECEIVER_EMAIL = "sylix30098@gmail.com"
+SENDER_EMAIL = ""
+SENDER_PASSWORD = "" 
+RECEIVER_EMAIL = ""
 
 # ================= 監控閥值與時間設定 =================
 
@@ -30,3 +30,4 @@ ALERT_COOLDOWN_SECONDS = 600
 # 不看單次數值，而是看最近 N 次的平均值 (過濾瞬間大量的數值)
 # 取最近 3 次 (約30秒) 的平均來判斷是否超過閥值
 MOVING_AVERAGE_WINDOW = 3
+
