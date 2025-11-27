@@ -99,3 +99,4 @@ sudo systemctl enable server-monitor
 ```
 
 ## 成果
+![image](https://github.com/sylix98/Server-monitor/blob/main/picture/Network%20warning.png)
